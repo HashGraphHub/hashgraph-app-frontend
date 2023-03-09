@@ -4,6 +4,8 @@
 	let selectedIndex = 0;
 </script>
 
+<h1>Import Hedera Wallet</h1>
+
 <ContentSwitcher style="margin: 1rem 0" bind:selectedIndex>
 	<Switch text="Private Key" />
 	<Switch text="Seed Phrase (12)" />

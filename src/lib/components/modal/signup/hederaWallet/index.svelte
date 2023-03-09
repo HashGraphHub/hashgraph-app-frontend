@@ -3,23 +3,22 @@
 	import CreateAccount from './createAccount.svelte';
 	import ImportAccount from './importAccount.svelte';
 	export let hederaData: any = {};
-	let type = '';
+	let type = 'import';
 </script>
 
-{#if type === 'create'}
+<!-- {#if type === 'create'}
 	<CreateAccount />
-{/if}
+{/if} -->
 {#if type === 'import'}
 	<ImportAccount />
 {/if}
 
-<div class="btn-container">
+<!-- <div class="btn-container">
 	<Button size="field" on:click={() => (type = 'create')}>Create Hedera Account</Button>
 	<Button size="field" on:click={() => (type = 'import')} kind="secondary"
 		>Import Hedera Account</Button
 	>
-</div>
-
+</div> -->
 <style lang="scss">
 	.btn-container {
 		display: flex;

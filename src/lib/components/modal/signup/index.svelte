@@ -9,7 +9,7 @@
 		ProgressIndicator,
 		ProgressStep
 	} from 'carbon-components-svelte';
-	import PersonalData from './personalData.svelte';
+	import PersonalData from './personalData/index.svelte';
 	import HederaWallet from './hederaWallet/index.svelte';
 	import { createEventDispatcher } from 'svelte';
 
